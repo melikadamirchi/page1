@@ -1,0 +1,91 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0a0a0a;
+}
+
+.about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ac6565;
+    color: #f0f0f0;
+}
+
+.prompt p {
+    color: #000000
+}
+
+.about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    color: #000000;
+    height: 50px;
+}
+
+.about .prompt {
+    margin-top: 10%;
+    width: 40%;
+    font-size: 30%;
+}
+
+.prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+}
+
+.skills {
+    font-size: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h1 {
+    margin-top: 2%;
+    color: #020202;
+}
+
+.skills .list {
+    list-style: none;
+    width: 60%;
+}
+
+.list span {
+    font-size: 1rem;
+}
+
+.item {
+    margin-top: 5%;
+    border: 1px dotted #ac6565;
+    padding: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .about h2 {
+        font-size: 2rem;
+        margin-bottom: 10%;
+    }
+    .about .prompt {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 80%;
+    }
+    .skills {
+        text-align: center;
+    }
+    .list {
+        padding: 0;
+    }
+    .skills h2 {
+        font-size: 1.5rem;
+    }
+}
